@@ -1,0 +1,22 @@
+#
+- hosts: 127.0.0.1
+  connection: local
+  become: yes
+  vars_files:
+    - create_transport_zones_vars.yml
+  tasks:
+    - name: Create transport zones
+      nsxt_transport_zones:
+        hostname: "{{ nsx_ip }}"
+        username: "{{ nsx_username }}"
+        password: "{{ nsx_password }}"
+        validate_certs: "{{ validate_certs }}"
+        resource_type: "TransportZone"
+        display_name: "{{ item.display_name }}"
+        description: "{{ item.description }}"
+        transport_type: "{{ item.transport_type }}"
+        host_switch_name: "{{ item.host_switch_name }}"
+        uplink_teaming_policy_names: "{{item.uplink_teaming_policy_names}}"
+        state: "{{ state }}"
+      with_items:
+        - "{{ transport_zones }}"

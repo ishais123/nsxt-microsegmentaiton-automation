@@ -1,0 +1,27 @@
+{
+    "state": "present",
+
+    "nsx_ip": "172.16.20.103",
+    "nsx_username": "admin",
+    "nsx_password": "Bpovtmg1!Bpovtmg1!",
+    "validate_certs": False,
+
+    "transport_zones": [
+    {
+      "display_name": "VLAN-SITEB-TZ",
+      "description": "NSX Configured VLAN Transport Zone for Site B",
+      "transport_type": "VLAN",
+      "host_switch_name": "nvds",
+      "uplink_teaming_policy_names": []
+    }
+    ,
+    {
+      "display_name": "VLAN-EDGE-SITEB-EXT1-TZ",
+      "description": "NSX Configured VLAN Transport Zone for Edge Nodes at Site B, left uplink ",
+      "transport_type": "VLAN",
+      "host_switch_name": "nvds-edge-siteb-1",
+      "uplink_teaming_policy_names": []
+    }
+  ]
+
+}
