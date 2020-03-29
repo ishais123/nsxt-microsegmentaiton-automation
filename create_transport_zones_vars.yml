@@ -8,18 +8,18 @@
 
     "transport_zones": [
     {
-      "display_name": "VLAN-SITEB-TZ",
-      "description": "NSX Configured VLAN Transport Zone for Site B",
+      "display_name": "TZ-ISHAI-01",
+      "description": "TZ-ISHAI-01 using Ansible",
       "transport_type": "VLAN",
-      "host_switch_name": "nvds",
+      "host_switch_name": "nvds-01",
       "uplink_teaming_policy_names": []
     }
     ,
     {
-      "display_name": "VLAN-EDGE-SITEB-EXT1-TZ",
-      "description": "NSX Configured VLAN Transport Zone for Edge Nodes at Site B, left uplink ",
+      "display_name": "TZ-ISHAI-02",
+      "description": "TZ-ISHAI-02 using Ansible",
       "transport_type": "VLAN",
-      "host_switch_name": "nvds-edge-siteb-1",
+      "host_switch_name": "nvds-02",
       "uplink_teaming_policy_names": []
     }
   ]
