@@ -15,3 +15,4 @@ resource "nsxt_policy_service" "service_l4port" {
     destination_ports = [ "${local.services[count.index].portnumber}" ]
     }
 }
+

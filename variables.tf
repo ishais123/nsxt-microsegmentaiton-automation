@@ -1,9 +1,9 @@
-variable "nsx_manager" {
+variable "nsx_manager"{
+  type = string
 }
-
-variable "nsx_username" {
+variable "nsx_username"{
+  type = string
 }
-
-variable "nsx_password" {
+variable "nsx_password"{
+  type = string
 }
-
