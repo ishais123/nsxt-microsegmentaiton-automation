@@ -9,11 +9,11 @@
     "compute_managers": [
     {
       "display_name": "vcsa-lab",
-      "mgmt_ip": "172.16.20.2",
+      "mgmt_ip": {vCenter address},
       "origin_type": "vCenter",
       "credential_type": "UsernamePasswordLoginCredential",
       "username": "administrator@vsphere.local",
-      "password": "Bpovtmg1!"
+      "password": {vCenter password}
     }
   ]
 }
