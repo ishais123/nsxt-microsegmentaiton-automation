@@ -1,7 +1,7 @@
 # nsxt-microsegmentaiton-automation
 Collection of Automation scripts for VMware NSX-T Microsegmentation projects
 
-Version: <br/>
+Versions: <br/>
 Python - 3.6 <br/>
 NSX-T - 2.5 <br/>
 Terraform - v0.12.24 <br/>
