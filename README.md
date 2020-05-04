@@ -5,7 +5,7 @@
 1) Python client which automate some common NSX tasks such as: segments creation, security policy creation amd more..<br/>
 2) Powershell script which migrate VM's from vDS port-groups to n-VDS logical switches.<br/>
 3) Ansible playbooks which create nsx-t transport zones and connect the vCenter to NSX manager.<br/>
-4) Terraform files for services creation and security groups and tags cration.<br/>
+4) Terraform files for services creation and security groups and tags creation.<br/>
 
 Versions: <br/>
 Python - 3.6 <br/>
