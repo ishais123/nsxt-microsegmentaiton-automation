@@ -1,7 +1,7 @@
 # nsxt-microsegmentaiton-automation
-Collection of Automation scripts for VMware NSX-T Microsegmentation projects
+## Collection of Automation scripts for VMware NSX-T Microsegmentation projects
 
-Those Automation include:<br/>
+## Those Automation include:<br/>
 1) Python client which bring automation to some common nsx-t tasks like: segments creation, security policy creation amd more..<br/>
 2) Powershell script which migrate VM's FROM vDS port-groups to n-VDS logical switches.<br/>
 3) Ansible playbooks which create nsx-t transport zones and connect the vCenter to NSX manager<br/>
